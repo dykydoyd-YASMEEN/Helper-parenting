@@ -93,7 +93,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # تهيئة OpenAI client
-API_KEY = os.getenv("OPENAI_API_KEY")
+API_KEY = os.getenv("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")
 if not API_KEY:
     st.error("❌ خطأ: لم يتم العثور على OPENAI_API_KEY في ملف .env")
     st.stop()
